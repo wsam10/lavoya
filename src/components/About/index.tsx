@@ -65,7 +65,7 @@ const About = () => {
 
         <div className="mt-5 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
         <Parallax speed={1}>
-          <div className="group relative block lg:h-[500px] h-[300px]  ">
+          <div className="group relative block lg:h-[500px] h-[600px]  ">
             <span className="absolute inset-0 border-2 border-dashed border-[#25272B] dark:border-[#25272B] dark:border-[#FDB940] rounded-2xl"></span>
 
             <div
@@ -111,7 +111,7 @@ const About = () => {
         </Parallax>
 
         <Parallax speed={1}>
-          <div className="group relative block lg:h-[500px] h-[300px]  ">
+          <div className="group relative block lg:h-[500px] h-[600px]  ">
             <span className="absolute inset-0 border-2 border-dashed border-[#25272B] dark:border-[#25272B] dark:border-[#FDB940] rounded-2xl"></span>
 
             <div
