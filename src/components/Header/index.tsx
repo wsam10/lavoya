@@ -5,8 +5,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import menuData from "./menuData";
-
 const Header = () => {
 
   const pathUrl = usePathname();
