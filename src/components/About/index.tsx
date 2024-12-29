@@ -5,9 +5,16 @@ const About = () => {
   return (
     <section id="about" className="about bg-white dark:bg-[#0F1014]">
       <div className="pt-32 mx-auto max-w-7xl px-4 sm:px-6 lg:px-0 ">
-        <div className="grid grid-cols-1 mb-5 bg-white h-96 rounded-xl overflow-hidden bg-[url(/images/banner/banner-1.jpg)] bg-center bg-no-repeat bg-cover bg-fixed">
-
-        </div>
+      <div
+  className="grid grid-cols-1 mb-5 bg-white h-96 rounded-xl rounded-lg overflow-hidden 
+             bg-center bg-no-repeat bg-cover md:bg-fixed sm:bg-scroll"
+  style={{
+    backgroundImage: "url(/images/banner/banner-1.jpg)",
+    backgroundSize: "contain", // Ensures the entire image is visible
+    backgroundPosition: "center",
+  }}
+>
+</div>
         <Parallax speed={-10}>
         <div className=" mb-2 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 ">
 
