@@ -107,26 +107,26 @@ const Header = () => {
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="absolute right-4 lg:right-20 top-1/2 block bg-[#0F1014]  -translate-y-1/2 rounded-lg px-3 py-[6px] ring-[#FDB940] focus:ring-2 "
+                  className="absolute right-4 lg:right-20 top-1/2 block dark:bg-[#0F1014] bg-white  -translate-y-1/2 rounded-lg px-3 py-[6px] "
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[20px] transition-all duration-300 ${navbarOpen ? " top-[7px] rotate-45" : " "
-                      } ${pathUrl !== "/" && "!bg-dark dark:!bg-white"} ${pathUrl === "/" && sticky
-                        ? "bg-white dark:bg-white"
+                      } ${pathUrl !== "/" && "!bg-dark dark:!bg-[#0F1014]"} ${pathUrl === "/" && sticky
+                        ? "bg-[#0F1014] dark:bg-white"
                         : "bg-white"
                       }`}
                   />
                   <span
                     className={`relative my-1.5 block h-0.5 w-[20px] transition-all duration-300 ${navbarOpen ? "opacity-0 " : " "
-                      } ${pathUrl !== "/" && "!bg-dark dark:!bg-white"} ${pathUrl === "/" && sticky
-                        ? "bg-white dark:bg-white"
+                      } ${pathUrl !== "/" && "!bg-dark dark:!bg-[#0F1014]"} ${pathUrl === "/" && sticky
+                        ? "bg-[#0F1014] dark:bg-white"
                         : "bg-white"
                       }`}
                   />
                   <span
                     className={`relative my-1.5 block h-0.5 w-[20px] transition-all duration-300 ${navbarOpen ? " top-[-8px] -rotate-45" : " "
-                      } ${pathUrl !== "/" && "!bg-dark dark:!bg-white"} ${pathUrl === "/" && sticky
-                        ? "bg-white dark:bg-white"
+                      } ${pathUrl !== "/" && "!bg-dark dark:!bg-[#0F1014]"} ${pathUrl === "/" && sticky
+                        ? "bg-[#0F1014] dark:bg-white"
                         : "bg-white"
                       }`}
                   />
@@ -144,19 +144,19 @@ const Header = () => {
                     <div className=" grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
 
                       <div className="block ml-auto mr-auto text-center lg:text-left">
-                        <a href="#" className="relative block pt-8 text-white text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Who We Are
                         </a>
-                        <a href="#" className="relative block pt-8 text-white text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           What We Do
                         </a>
-                        <a href="#" className="relative block pt-8 text-white text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Our Team
                         </a>
-                        <a href="#" className="relative block pt-8 text-white text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           News
                         </a>
@@ -164,15 +164,15 @@ const Header = () => {
 
                       <div className="block ml-auto mr-auto text-center lg:text-left">
 
-                        <a href="#" className="relative block pt-8 text-white text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Careers
                         </a>
-                        <a href="#" className="relative block pt-8 text-white text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Our Locations
                         </a>
-                        <a href="#" className="relative block pt-8 text-white text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Contact Us
                         </a>
@@ -192,10 +192,10 @@ const Header = () => {
                             </svg>
 
 
-                            <h4 className="text-lg font-bold text-white px-2 pt-1 capitalize transition-all duration-500 ">Location</h4>
+                            <h4 className="text-lg font-bold dark:text-white text-[#0F1014] px-2 pt-1 capitalize transition-all duration-500 ">Location</h4>
 
                           </div>
-                          <p className="text-md text-gray-300 transition-all duration-500 leading-2 "> Dubai Hills Business Park,  Building 3, Office 204
+                          <p className="text-md dark:text-gray-300 text-gray-700 transition-all duration-500 leading-2 "> Dubai Hills Business Park,  Building 3, Office 204
 
                             PO Box: 282413,
                             Dubai, UAE
@@ -214,10 +214,10 @@ const Header = () => {
 
 
 
-                            <h4 className="text-lg font-bold text-white px-2 pt-1 capitalize transition-all duration-500 ">Call</h4>
+                            <h4 className="text-lg font-bold dark:text-white text-[#0F1014] px-2 pt-1 capitalize transition-all duration-500 ">Call</h4>
 
                           </div>
-                          <a href="tel:+9714-423-3727" className="text-md text-gray-300 transition-all duration-500 leading-2 "> +971 4 423 3727 </a>
+                          <a href="tel:+9714-423-3727" className="text-md dark:text-gray-300 text-gray-700 hover:text-[#FDB940] hover:text-bold  transition-all duration-500 leading-2 "> +971 4 423 3727 </a>
 
                         </div>
 
@@ -228,10 +228,10 @@ const Header = () => {
                               <path d="M63.2222 1H8.77778C4.48223 1 1 4.48223 1 8.77778V47.6667C1 51.9622 4.48223 55.4444 8.77778 55.4444H63.2222C67.5178 55.4444 71 51.9622 71 47.6667V8.77778C71 4.48223 67.5178 1 63.2222 1Z" stroke="#FDB940" stroke-width="2" stroke-linecap="round" />
                             </svg>
 
-                            <h4 className="text-lg font-bold text-white px-2 pt-1 capitalize transition-all duration-500 ">Email</h4>
+                            <h4 className="text-lg font-bold dark:text-white text-[#0F1014] px-2 pt-1 capitalize transition-all duration-500 ">Email</h4>
 
                           </div>
-                          <a href="mailto:info@lavoya.com" className="text-md text-gray-300 transition-all duration-500 leading-2 "> info@lavoya.com </a>
+                          <a href="mailto:info@lavoya.com" className="text-md dark:text-gray-300 text-gray-700 hover:text-[#FDB940] hover:text-bold transition-all duration-500 leading-2 "> info@lavoya.com </a>
 
                         </div>
 
@@ -314,7 +314,7 @@ const Header = () => {
                 <button
                   aria-label="theme toggler"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                  className="flex h-8 w-8 -mr-2 lg:mr-14 items-center justify-center text-body-color duration-300 dark:text-white"
+                  className="flex h-8 w-8 -mr-2 lg:mr-14 items-center justify-center dark:bg-[#0F1014] bg-white text-body-color duration-300 dark:text-white rounded-lg p-5"
                 >
                   <span>
                     <svg
