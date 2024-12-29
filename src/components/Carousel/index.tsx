@@ -17,8 +17,8 @@ const Carousel = () => {
 
     return (
         <ParallaxProvider>
-            <div className="space-y-8 w-full h-screen bg-blue-900">
-                <div className="grid grid-cols-1 gap-6 bg-red-900 w-full h-screen">
+            <div className="space-y-8 w-full h-screen">
+                <div className="grid grid-cols-1 gap-6 w-full h-screen">
                     <div className="panel">
                         <Swiper
                             modules={[Navigation, Autoplay, Pagination]}
