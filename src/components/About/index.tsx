@@ -16,7 +16,7 @@ const About = () => {
             <div className="group relative mt-0 inline-flex">
 
               <a href="#"
-                className="mt-8 group relative inline-block text-xl font-medium text-gray-900 focus:outline-none focus:ring">
+                className="mt-32 lg:mt-8 group relative inline-block text-xl font-medium text-gray-900 focus:outline-none focus:ring">
                 <span className="absolute inset-0 rounded-lg border border-[#FDB940]"></span>
                 <span
                   className="block rounded-lg bg-[#FDB940] px-12 py-3 transition-transform  group-hover:bg-white group-hover:text-dark group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -40,7 +40,7 @@ const About = () => {
           
           </div>
 
-          <div className="mt-36 p-1 lg:p-10">
+          <div className="lg:mt-36 mt-10 p-1 lg:p-10">
 
 
             <p className="mt-1 text-lg lg:text-2xl dark:text-white text-[#0F1014] leading-10 ">
