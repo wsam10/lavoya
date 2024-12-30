@@ -22,7 +22,7 @@ const Partners = () => {
           </Parallax>
 
           <Parallax speed={5}>
-            <a href="#" className="flex justify-center items-center w-24 lg:w-40 mb-5 lg:-mb-0">
+            <a href="#" className="flex justify-center items-center w-24 lg:w-40 lg:-mb-0">
               <img
                 className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
                 src="/images/partners/partner-2.png"
@@ -42,7 +42,7 @@ const Partners = () => {
           </Parallax>
 
           <Parallax speed={5}>
-            <a href="#" className="flex justify-center items-center  w-24 lg:w-40 mb-5 lg:-mb-0">
+            <a href="#" className="flex justify-center items-center  w-24 lg:w-40 lg:-mb-0">
               <img
                 className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
                 src="/images/partners/partner-4.png"
