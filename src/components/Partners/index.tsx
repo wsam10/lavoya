@@ -10,11 +10,11 @@ const Partners = () => {
           Our Partners
         </h1>
 
-        <div className="mt-10 lg:mt-28 px-28 grid grid-cols-1 gap-16 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-10 lg:mt-28 px-28 grid grid-cols-2 gap-16 lg:grid-cols-4">
           <Parallax speed={-5}>
-            <a href="#" className="flex justify-center items-center  h-44 -mb-20 lg:-mb-0">
+            <a href="#" className="flex justify-center items-center w-24 lg:w-40 mb-5 lg:-mb-0">
               <img
-                className="block h-32 lg:h-44 relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
+                className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
                 src="/images/partners/partner-1.png"
                 alt="Partner 1"
               />
@@ -22,9 +22,9 @@ const Partners = () => {
           </Parallax>
 
           <Parallax speed={5}>
-            <a href="#" className="flex justify-center items-center  h-44 -mb-20 lg:-mb-0">
+            <a href="#" className="flex justify-center items-center w-24 lg:w-40 mb-5 lg:-mb-0">
               <img
-                className="block h-32 lg:h-44 relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
+                className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
                 src="/images/partners/partner-2.png"
                 alt="Partner 2"
               />
@@ -32,9 +32,9 @@ const Partners = () => {
           </Parallax>
 
           <Parallax speed={-5}>
-            <a href="#" className="flex justify-center items-center  h-44 -mb-20 lg:-mb-0">
+            <a href="#" className="flex justify-center items-center  w-24 lg:w-40 mb-5 lg:-mb-0">
               <img
-                className="block h-32 lg:h-44 relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
+                className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
                 src="/images/partners/partner-3.png"
                 alt="Partner 3"
               />
@@ -42,9 +42,9 @@ const Partners = () => {
           </Parallax>
 
           <Parallax speed={5}>
-            <a href="#" className="flex justify-center items-center  h-44 -mb-20 lg:-mb-0">
+            <a href="#" className="flex justify-center items-center  w-24 lg:w-40 mb-5 lg:-mb-0">
               <img
-                className="block h-32 lg:h-44 relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
+                className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
                 src="/images/partners/partner-4.png"
                 alt="Partner 4"
               />
