@@ -1,5 +1,7 @@
 'use client';
 import Link from 'next/link';
+import Image from "next/image";
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -9,10 +11,10 @@ import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 
 const Carousel = () => {
     const banners = [
-        { image: 'banner-1.jpg', logo: 'partner-2.png', title: 'Name of Restaurant 1', buttonText: 'Visit website', link: '/' },
-        { image: 'banner-2.jpg', logo: 'partner-2.png', title: 'Name of Restaurant 2', buttonText: 'Visit website', link: '/' },
-        { image: 'banner-3.jpg', logo: 'partner-3.png', title: 'Name of Restaurant 3', buttonText: 'Visit website', link: '/' },
-        { image: 'banner-4.jpg', logo: 'partner-4.png', title: 'Name of Restaurant 4', buttonText: 'Visit website', link: '/' },
+        { image: 'banner-1.webp', logo: 'partner-2.webp', title: 'Name of Restaurant 1', buttonText: 'Visit website', link: '/' },
+        { image: 'banner-2.webp', logo: 'partner-2.webp', title: 'Name of Restaurant 2', buttonText: 'Visit website', link: '/' },
+        { image: 'banner-3.webp', logo: 'partner-3.webp', title: 'Name of Restaurant 3', buttonText: 'Visit website', link: '/' },
+        { image: 'banner-4.webp', logo: 'partner-4.webp', title: 'Name of Restaurant 4', buttonText: 'Visit website', link: '/' },
     ];
 
     return (
@@ -35,7 +37,9 @@ const Carousel = () => {
                                     <div className="relative w-full h-screen">
                                         {/*  Background */}
                                         <Parallax speed={-10}>
-                                            <img
+                                            <Image
+                                                width={1900}
+                                                height={600}
                                                 src={`/images/banner/${banner.image}`}
                                                 className="w-full h-screen object-cover"
                                                 alt={`Slide ${i + 1}`}
@@ -45,7 +49,9 @@ const Carousel = () => {
                                         {/*  Foreground */}
                                         <div className="absolute top-1/3 left-1/2 lg:top-1/2 lg:left-20 transform -translate-x-1/2 lg:-translate-x-0 -translate-y-1/3 lg:-translate-y-0 p-2 backdrop-blur-[2px] rounded-xl text-center text-white">
                                             <Parallax speed={5}>
-                                                <img
+                                                <Image
+                                                    width={100}
+                                                    height={100}
                                                     src={`/images/partners/${banner.logo}`}
                                                     className="h-44 w-44 mb-2 ml-auto mr-auto"
                                                     alt="Logo"

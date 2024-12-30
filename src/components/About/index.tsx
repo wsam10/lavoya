@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 
 const About = () => {
@@ -9,7 +8,7 @@ const About = () => {
   className="grid grid-cols-1 mb-5 bg-white h-96 rounded-xl overflow-hidden 
              bg-center bg-no-repeat bg-cover"
   style={{
-    backgroundImage: "url(/images/banner/banner-1.jpg)",
+    backgroundImage: "url(/images/banner/banner-1.webp)",
     backgroundSize: "cover", // Ensures full coverage of the div
   }}
 ></div>
@@ -168,7 +167,7 @@ const About = () => {
   className="mt-20 relative grid grid-cols-1 mb-5 bg-white h-screen rounded-xl overflow-hidden 
   bg-center bg-no-repeat bg-cover bg-fixed"
   style={{
-    backgroundImage: "url(/images/banner/banner-1.jpg)",
+    backgroundImage: "url(/images/banner/banner-1.webp)",
     backgroundSize: "cover", // Ensures full coverage of the div
   }}
 >

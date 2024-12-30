@@ -12,10 +12,12 @@ const Partners = () => {
 
         <div className="mt-10 lg:mt-28 px-28 grid grid-cols-2 gap-16 lg:grid-cols-4">
           <Parallax speed={-5}>
-            <a href="#" className="flex justify-center items-center w-24 lg:w-40 mb-5 lg:-mb-0">
-              <img
+            <a href="#" className="flex justify-center items-center w-24 lg:w-40 mt-5 lg:-mb-0">
+              <Image
+              width={150}
+              height={150}
                 className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
-                src="/images/partners/partner-1.png"
+                src="/images/partners/partner-1.webp"
                 alt="Partner 1"
               />
             </a>
@@ -23,29 +25,35 @@ const Partners = () => {
 
           <Parallax speed={5}>
             <a href="#" className="flex justify-center items-center w-24 lg:w-40 lg:-mb-0">
-              <img
+              <Image
+              width={150}
+              height={150}
                 className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
-                src="/images/partners/partner-2.png"
+                src="/images/partners/partner-2.webp"
                 alt="Partner 2"
               />
             </a>
           </Parallax>
 
           <Parallax speed={-5}>
-            <a href="#" className="flex justify-center items-center  w-24 lg:w-40 mb-5 lg:-mb-0">
-              <img
+            <a href="#" className="flex justify-center items-center  w-24 lg:w-40  lg:-mb-0">
+              <Image
+              width={150}
+              height={150}
                 className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
-                src="/images/partners/partner-3.png"
+                src="/images/partners/partner-3.webp"
                 alt="Partner 3"
               />
             </a>
           </Parallax>
 
           <Parallax speed={5}>
-            <a href="#" className="flex justify-center items-center  w-24 lg:w-40 lg:-mb-0">
-              <img
+            <a href="#" className="flex justify-center items-center  w-24 lg:w-40 -mt-14 lg:-mb-0">
+              <Image
+              width={150}
+              height={150}
                 className="block h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-105"
-                src="/images/partners/partner-4.png"
+                src="/images/partners/partner-4.webp"
                 alt="Partner 4"
               />
             </a>

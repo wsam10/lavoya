@@ -14,17 +14,17 @@ const blogData: BlogData[] = [
   {
     title: "Drake-backed Dave’s Hot Chicken opened in JBR in September, followed by a branch in Motor City.",
     description: "Now, a third branch has opened its doors to serve spicy fried chicken in Dubai Mall (on level two by the ice rink).",
-    imageUrl: "/images/blog/blog-1.jpg",
+    imageUrl: "/images/blog/blog-1.webp",
   },
   {
     title: "Another exciting news for food lovers in Dubai.",
     description: "A new restaurant has opened in the heart of the city, offering unique dishes and experiences.",
-    imageUrl: "/images/blog/blog-2.png",
+    imageUrl: "/images/blog/blog-2.webp",
   },
   {
     title: "Another exciting news for food lovers in Dubai.",
     description: "A new restaurant has opened in the heart of the city, offering unique dishes and experiences.",
-    imageUrl: "/images/blog/blog-3.jpg",
+    imageUrl: "/images/blog/blog-3.webp",
   },
 ];
 
