@@ -179,7 +179,7 @@ const Header = () => {
 
                       </div>
 
-                      <div className="col-span-2 block ml-auto mr-auto">
+                      <div className="col-span-2 lg:col-span-1 block ml-auto mr-auto">
 
                         <div className="mt-2 relative max-w-xs border border-solid border-gray-600 rounded-2xl p-4 transition-all duration-500 col-span-12   lg:col-span-3 md:col-span-6 ">
                           <div className=" mb-4 flex items-center  ">
@@ -240,7 +240,7 @@ const Header = () => {
 
                       </div>
 
-                      <div className="col-span-2 block ml-auto mr-auto text-center lg:text-left mb-20">
+                      <div className="col-span-2 lg:col-span-1 block ml-auto mr-auto text-center lg:text-left mb-20">
                         <ul className="mt-8 mr-32 flex items-center justify-start gap-6 sm:mt-0 sm:justify-end">
                           <li>
                             <a
