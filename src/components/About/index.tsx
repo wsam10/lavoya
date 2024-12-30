@@ -38,7 +38,7 @@ const About = () => {
             </div>
             </Parallax>
             <h2 className="mt-14 dark:text-white text-[#0F1014] text-4xl leading-[60px] lg:text-6xl lg:leading-[70px] ">
-              It's time to do it together now.
+            <span className="text-[#FDB940]">It's time </span> to do it together now.
 
             </h2>
           

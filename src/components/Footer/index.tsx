@@ -11,14 +11,14 @@ const Footer = () => {
       <div className="mx-auto max-w-screen-2xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
 
 
-        <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-32">
+        <div className="-mt-10 grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-32">
 
           <div className="mx-auto max-w-sm lg:max-w-none">
             <Image
               src={`/images/logo/logo.png`}
-              width={700}
-              height={700}
-              className="h-16 block mx-auto md:mx-0 bg-[#0F1014] dark:bg-transparent p-3 rounded-lg"
+              width={240}
+              height={130}
+              className="block mx-auto md:mx-0 bg-[#0F1014] dark:bg-transparent p-3 rounded-lg"
               alt='logo' />
 
             <p className="mt-4 text-center dark:text-gray-400 text-[#0F1014]  lg:text-left lg:text-lg">
