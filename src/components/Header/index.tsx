@@ -112,22 +112,22 @@ const Header = () => {
                   <span
                     className={`relative my-1.5 block h-0.5 w-[20px] transition-all duration-300 ${navbarOpen ? " top-[7px] rotate-45" : " "
                       } ${pathUrl !== "/" && "!bg-dark dark:!bg-[#0F1014]"} ${pathUrl === "/" && sticky
-                        ? "bg-[#0F1014] dark:bg-white"
-                        : "bg-white"
+                        ? "bg-gray-500 dark:bg-white"
+                        : "bg-gray-500"
                       }`}
                   />
                   <span
                     className={`relative my-1.5 block h-0.5 w-[20px] transition-all duration-300 ${navbarOpen ? "opacity-0 " : " "
                       } ${pathUrl !== "/" && "!bg-dark dark:!bg-[#0F1014]"} ${pathUrl === "/" && sticky
-                        ? "bg-[#0F1014] dark:bg-white"
-                        : "bg-white"
+                        ? "bg-gray-500 dark:bg-white"
+                        : "bg-gray-500"
                       }`}
                   />
                   <span
                     className={`relative my-1.5 block h-0.5 w-[20px] transition-all duration-300 ${navbarOpen ? " top-[-8px] -rotate-45" : " "
                       } ${pathUrl !== "/" && "!bg-dark dark:!bg-[#0F1014]"} ${pathUrl === "/" && sticky
-                        ? "bg-[#0F1014] dark:bg-white"
-                        : "bg-white"
+                        ? "bg-gray-500 dark:bg-white"
+                        : "bg-gray-500"
                       }`}
                   />
                 </button>
@@ -141,45 +141,45 @@ const Header = () => {
                     }`}
                 >
                   <div className="mt-32 pb-52 lg:pb-0 lg:mt-44 overflow-y-auto h-screen ">
-                    <div className=" grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+                    <div className=" grid grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-8">
 
-                      <div className="block ml-auto mr-auto text-center lg:text-left">
-                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                      <div className="block ml-auto mr-auto text-left">
+                        <a href="#" className="relative block pt-2 lg:pt-8 dark:text-white text-[#0F1014] text-2xl lg:text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Who We Are
                         </a>
-                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-2 lg:pt-8 dark:text-white text-[#0F1014] text-2xl lg:text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           What We Do
                         </a>
-                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-2 lg:pt-8 dark:text-white text-[#0F1014] text-2xl lg:text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Our Team
                         </a>
-                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-2 lg:pt-8 dark:text-white text-[#0F1014] text-2xl lg:text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           News
                         </a>
                       </div>
 
-                      <div className="block ml-auto mr-auto text-center lg:text-left">
+                      <div className="block ml-auto mr-auto text-left">
 
-                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-2 lg:pt-8 dark:text-white text-[#0F1014] text-2xl lg:text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Careers
                         </a>
-                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-2 lg:pt-8 dark:text-white text-[#0F1014] text-2xl lg:text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Our Locations
                         </a>
-                        <a href="#" className="relative block pt-8 dark:text-white text-[#0F1014] text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
+                        <a href="#" className="relative block pt-2 lg:pt-8 dark:text-white text-[#0F1014] text-2xl lg:text-5xl font-bold group hover:text-[#FDB940] py-1.5 px-2.5 ">
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FDB940]  group-hover:w-full group-hover:transition-all"></span>
                           Contact Us
                         </a>
 
                       </div>
 
-                      <div className="block ml-auto mr-auto">
+                      <div className="col-span-2 block ml-auto mr-auto">
 
                         <div className="mt-2 relative max-w-xs border border-solid border-gray-600 rounded-2xl p-4 transition-all duration-500 col-span-12   lg:col-span-3 md:col-span-6 ">
                           <div className=" mb-4 flex items-center  ">
@@ -240,7 +240,7 @@ const Header = () => {
 
                       </div>
 
-                      <div className="block ml-auto mr-auto text-center lg:text-left">
+                      <div className="col-span-2 block ml-auto mr-auto text-center lg:text-left mb-20">
                         <ul className="mt-8 mr-32 flex items-center justify-start gap-6 sm:mt-0 sm:justify-end">
                           <li>
                             <a

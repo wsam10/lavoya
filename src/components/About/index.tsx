@@ -6,15 +6,13 @@ const About = () => {
     <section id="about" className="about bg-white dark:bg-[#0F1014]">
       <div className="pt-32 mx-auto max-w-7xl px-4 sm:px-6 lg:px-0 ">
       <div
-  className="grid grid-cols-1 mb-5 bg-white h-96 rounded-xl rounded-lg overflow-hidden 
-             bg-center bg-no-repeat bg-cover md:bg-fixed sm:bg-scroll"
+  className="grid grid-cols-1 mb-5 bg-white h-96 rounded-xl overflow-hidden 
+             bg-center bg-no-repeat bg-cover"
   style={{
     backgroundImage: "url(/images/banner/banner-1.jpg)",
-    backgroundSize: "contain", // Ensures the entire image is visible
-    backgroundPosition: "center",
+    backgroundSize: "cover", // Ensures full coverage of the div
   }}
->
-</div>
+></div>
         <Parallax speed={-10}>
         <div className=" mb-2 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 ">
 
@@ -166,10 +164,15 @@ const About = () => {
 
         </div>
 
-       
-        <div className="relative mt-20 grid grid-cols-1 mb-5 bg-white h-screen rounded-xl overflow-hidden bg-[url(/images/banner/banner-1.jpg)] bg-center bg-no-repeat bg-cover bg-fixed">
-
-          <div className="absolute bottom-4 left-4 py-2  backdrop-blur-[10px] rounded-xl w-96 h-96 ">
+        <div
+  className="relative grid grid-cols-1 mb-5 bg-white h-screen rounded-xl overflow-hidden 
+  bg-center bg-no-repeat bg-cover bg-fixed"
+  style={{
+    backgroundImage: "url(/images/banner/banner-1.jpg)",
+    backgroundSize: "cover", // Ensures full coverage of the div
+  }}
+>
+<div className="absolute w-96 top-1/3 left-1/2 lg:top-1/2 lg:left-20 transform -translate-x-1/2 lg:-translate-x-0 -translate-y-1/3 lg:-translate-y-0  ">
           <Parallax speed={10}>
             <h2 className="text-4xl text-center text-white drop-shadow-md pt-20 px-4">
               WE ARE THE PARTNER OF CHOICE FOR GLOBAL RESTAURANT FRANCHISE BRANDS
@@ -197,8 +200,10 @@ const About = () => {
             </div>
            </Parallax>
           </div>
+</div>
 
-        </div>
+       
+      
        
       </div>
     </section>
