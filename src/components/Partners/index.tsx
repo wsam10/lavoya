@@ -6,9 +6,11 @@ const Partners = () => {
   return (
     <section className="py-24 bg-white dark:bg-[#0F1014]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <Parallax speed={10}>
         <h1 className="mt-4 mb-12 text-[#25272B] text-center dark:text-white font-bold text-4xl lg:text-7xl">
         <span className="text-[#FDB940]">P</span>ARTNERS
         </h1>
+        </Parallax>
 
         <div className="mt-10 lg:mt-28 px-28 grid grid-cols-2 gap-16 lg:grid-cols-4">
           <Parallax speed={-5}>
