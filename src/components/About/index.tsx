@@ -164,7 +164,7 @@ const About = () => {
         </div>
 
         <div
-  className="mt-20 relative grid grid-cols-1 mb-5 bg-white h-screen rounded-xl overflow-hidden 
+  className="mt-20 relative grid grid-cols-1 mb-5 bg-white h-96 lg:h-screen rounded-xl overflow-hidden 
   bg-center bg-no-repeat bg-cover bg-fixed"
   style={{
     backgroundImage: "url(/images/banner/banner-1.webp)",
