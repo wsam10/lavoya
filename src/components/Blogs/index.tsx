@@ -2,14 +2,12 @@
 import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 
-// Define the type for the blog data
 interface BlogData {
   title: string;
   description: string;
   imageUrl: string;
 }
 
-// Blog data array with explicit type
 const blogData: BlogData[] = [
   {
     title: "Drake-backed Dave’s Hot Chicken opened in JBR in September, followed by a branch in Motor City.",
@@ -28,14 +26,12 @@ const blogData: BlogData[] = [
   },
 ];
 
-// Define the props type for BlogCard
 interface BlogCardProps {
   title: string;
   description: string;
   imageUrl: string;
 }
 
-// BlogCard component
 const BlogCard: React.FC<BlogCardProps> = ({ title, description, imageUrl }) => (
   <div className="flex items-center flex-col gap-8 w-full group p-2">
     <Parallax speed={4}>
@@ -62,12 +58,14 @@ const BlogCard: React.FC<BlogCardProps> = ({ title, description, imageUrl }) => 
   </div>
 );
 
-// Blogs component
 const Blogs: React.FC = () => {
   return (
     <section id="Blogs" className="pt-32 bg-white dark:bg-[#0F1014]">
       <div className="bg-white dark:bg-[#25272B] pt-20 pb-20 rounded-xl py-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h1 className="mt-4 text-[#25272B] text-center dark:text-white font-bold text-4xl lg:text-7xl"><span className="text-[#FDB940]">N</span>EWS</h1>
+        <Parallax speed={10}>
+          <h1 className="mt-4 text-[#25272B] text-center dark:text-white font-bold text-4xl lg:text-7xl">
+        <span className="text-[#FDB940]">N</span>EWS</h1></Parallax>
+        
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogData.map((project, index) => (
             <BlogCard
