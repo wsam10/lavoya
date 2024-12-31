@@ -27,7 +27,7 @@ export default function RootLayout({
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       
-    <title>Document Title</title>
+    <title>Lavoya | Food for Thought | GCC </title>
       <head />
 
       <body>
