@@ -65,7 +65,7 @@ const Header = () => {
                       width={240}
                       height={130}
                       priority
-                      className=" w-full dark:hidden"
+                      className=" w-full dark:hidden "
                     />
                     <Image
                       src={`/images/logo/logo.png`}
@@ -73,7 +73,7 @@ const Header = () => {
                       width={240}
                       height={130}
                       priority
-                      className=" hidden w-full dark:block"
+                      className=" hidden w-full dark:block "
                     />
                   </>
                 ) : (
@@ -87,7 +87,7 @@ const Header = () => {
                       width={240}
                       height={150}
                       priority
-                      className={` w-full dark:hidden ${sticky ? "bg-[#0F1014]  -p-2 px-2 py-1 rounded-md" : ""
+                      className={`  w-full dark:hidden ${sticky ? "bg-[#0F1014] w-12 h-12  -p-2 px-2 py-1 rounded-md" : ""
                         }`}
                     />
                     <Image
@@ -96,14 +96,15 @@ const Header = () => {
                       width={240}
                       height={50}
                       priority
-                      className=" hidden w-full dark:block"
+                      className={` hidden w-full dark:block ${sticky ? "w-12 h-12  -p-2 px-2 py-1 rounded-md" : ""
+                    }`}
                     />
                   </>
                 )}
               </Link>
             </div>
 
-            <div className=" flex items-center justify-between  w-auto px-4 mt-8">
+            <div className=" flex items-center justify-between  w-auto px-0 mt-8 md:mt-0">
 
               <div className="mx-auto  px-3 py-2">
                 {/* theme toggler mode */}
