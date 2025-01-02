@@ -173,14 +173,14 @@ const About = () => {
     backgroundSize: "cover", 
   }}
 >
-          <div className="absolute w-96 top-1/3 left-1/2 lg:top-1/2 lg:left-20 transform -translate-x-1/2 lg:-translate-x-0 -translate-y-1/3 lg:-translate-y-0  ">
-            <Parallax speed={10}>
-              <h2 className="text-4xl text-center text-white drop-shadow-md pt-20 px-4">
+          <div className="absolute w-96 top-1/3 left-1/2 lg:top-1/2 lg:left-20 transform -translate-x-1/2 lg:-translate-x-0 -translate-y-1/3 lg:-translate-y-0 p-2 backdrop-blur-[2px] rounded-xl">
+            <Parallax speed={5}>
+              <h2 className="text-4xl text-center text-white drop-shadow-md pt-10 px-4">
                 WE ARE THE PARTNER OF CHOICE FOR GLOBAL RESTAURANT FRANCHISE BRANDS
               </h2>
             </Parallax>
-            <Parallax speed={1}>
-              <div className="group relative mt-0 ml-auto mr-auto w-56">
+            <Parallax speed={5}>
+              <div className="group relative mb-5 ml-auto mr-auto w-56">
 
                 <a href="#"
                   className="mt-8 group relative inline-block text-xl font-medium text-gray-900 focus:outline-none focus:ring">
